@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <cstdlib>
 #include <ctime>
-
 using namespace std;
 //Объявление функций
 //Функция инициализации игры
