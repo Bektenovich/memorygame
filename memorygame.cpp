@@ -12,7 +12,6 @@ int initializeGame(vector<int>&cards,int size);
 void displayArray(const vector<int>&cards,const vector<int>&revealed);
 //Основная логика игры
 int playGame(vector<int>&cards,vector<int>&revealed);
-
 int main(){
     //Инициализация генератора случайных чисел
     srand(static_cast<unsigned int>(time(nullptr)));
