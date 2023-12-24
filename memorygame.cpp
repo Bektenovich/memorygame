@@ -7,8 +7,11 @@
 using namespace std;
 
 // Объявление функций
+// Функция инициализации игры
 int initializeGame(vector<int>& cards, int size);
+// Функция отображения массива
 void displayArray(const vector<int>& cards, const vector<int>& revealed);
+// Основная логика игры
 int playGame(vector<int>& cards, vector<int>& revealed);
 
 int main() {
